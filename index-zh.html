@@ -1,69 +1,119 @@
 <!DOCTYPE html>
 <html lang="zh-TW">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Willie's Personal Site</title>
-    </head>
-    <body>
-        <table>
-            <tr>
-                <td> 
-                    <h1>彭子維</h1>
-                    <p><a href="index.html">English version</a></p>
-                    <h3>聯絡資訊</h3>
-                    <ul>
-                        <li>Email：<a href="mailto:willieooq@gmail.com">willieooq@gmail.com</a></li>
-                        <li>Github：<a href="https://github.com/willieooq">https://github.com/willieooq</a></li>
-                        <li>LineID：willieoooq</li>
-                        <li>Phone：0928080930</li>
-                    </ul>
-                </td>
-            </tr>
-        </table>
-        
-        <hr>
-        <h3>學歷</h3>
-        <pre>國立台北教育大學資訊科學系二升三年級</pre>
-        
-        <h3>個人簡介</h3>
-        <p>從小開始，我就很喜歡動手做東西，相較於書上的知識，我更喜歡透過完成某件事來學習。<br>
-           也因為這樣，我在面對困難與解決問題上累積了許多經驗。
-        </p>
-        <h3>程式經歷</h3>
-        <ul>
-            <li>我一開始寫LineBot時所使用的語言，就是<b>Python</b>，因為那時幾乎沒有寫過程式，所以遇到許多愚蠢的問題</li>
-            <li><b>Java</b>專題則出了一點小意外，原本只打算做一個小專題而已，但卻不小心一頭栽進去，結果拿到班上最高分</li>
-            <li><b>C++</b>只有學校的基礎，目前還沒開始深入研究</li>
-            <li><b>Github</b>尚在學習中，指令還不夠熟</li>
-        </ul>
-        <br>
-        <h3>專案及作品</h3>
-        <table>
-            <thead>
-                <th>名稱</th>
-                <th>簡介</th>
-            </thead>
-            <tbody>
-                <tr>
-                    <td style="text-align:right"><pre>Java期末專題    <br>坦克大戰    </pre> </td>
-                    <td>作品連結 <a href="https://github.com/willieooq/TankWar">https://github.com/willieooq/TankWar</a><br>
-                        這個是我第一次和別人合作寫的專題，也是第一次真正在合作中使用Github</td>
-                </tr>
-                <tr>
-                    <td style="text-align:right"><pre>LineBot    <br>NTU_launch    </pre></td>
-                    <td>作品連結 <a href="https://github.com/willieooq/NTU_launch">https://github.com/willieooq/NTU_launch</a><br>
-                        為了解決全宇宙最難的問題，原本打算用google map抓餐廳的，<br>
-                        但後來發現有些資料上面沒有，於是後來是採用人工調查價錢的方式，再透過excel來讀寫資料</td>
-                </tr>
-                    <td style="text-align:right"><pre>LineBot    <br>廢棄腳踏車    <br>舉報系統    </pre></td>
-                    <td>作品連結 <a href="https://github.com/willieooq/Bicycles">https://github.com/willieooq/Bicycles</a><br>
-                        為了便利民眾舉報廢棄的腳踏車，而決定使用大家都有用的LINE來建立方便的舉報系統，<br>
-                        其中還使用了圖片辨識來輔助腳踏車的判斷<td>
-                <tr>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Willie's Personal Site</title>
+    <link rel="stylesheet" type="text/css" href="index.css" />
+  </head>
+  <body>
+    <table>
+      <tr>
+        <td>
+          <h1>彭子維</h1>
+          <img src="/images/head.jpg" height="250" />
+          <p><a href="index.html">English version</a></p>
+          <h3>聯絡資訊</h3>
+          <ul>
+            <li>
+              Email：<a href="mailto:willieooq@gmail.com"
+                >willieooq@gmail.com</a
+              >
+            </li>
+            <li>
+              Github：<a href="https://github.com/willieooq"
+                >https://github.com/willieooq</a
+              >
+            </li>
+            <li>LineID：willieooq</li>
+            <li>Phone：0928080930</li>
+          </ul>
+        </td>
+      </tr>
+    </table>
 
-                </tr>
-            </tbody>
-        </table>
-    </body>
+    <hr />
+    <h3>學歷</h3>
+    畢業於國立台北教育大學資訊科學系
+
+    <h3>個人簡介</h3>
+    <pre>
+          本科系學士畢業生較熟悉java和python但其他語言也多有涉獵一些
+          有良好的邏輯推理和謹慎的思考能力
+          擅長做中學，擁有良好的學習能力
+    </pre>
+    <h3>程式與實習經歷</h3>
+    <ul>
+      <pre>2020 <a href="https://github.com/willieooq/Bicycles">LineBot 廢棄腳踏車舉報系統</a>
+          透過網路資源自學Python所完成的第一個專案，
+          利用LineBot串聯Heroku來建立線上舉報系統，
+          並加上當時很流行的Tensorflow來幫助辨識腳踏車。</pre>
+      <pre>2021 <a href="https://github.com/willieooq/TankWar">Java期末專題 TankWar</a>
+          一邊照著影片作出主幹，一邊照著自己的想法加入想要的功能
+          這次也是與他人合作的寶貴經驗，諸如溝通討論到github的使用都是從中所學的
+          遇到難題也都能透過網路和溝通來解決</pre>
+      <pre>
+2022 實習-星展銀行
+          被分配到server team，主要學習內容為java spring
+          java bean ,dto ,dao ,RESTful API等許多java觀念都是在當時學會的 
+          在實習快結束前，PM有給我個人一次機會去和客戶直接溝通，
+          讓我了解到你會寫不代表你會講，能快速確認客戶的需求並分發工作才能當個好PM</pre
+      >
+      <pre>
+2023 實習-台灣大哥大
+          雖然也是分配到Server team但是學習內容和Server較無關係
+          這次主要寫的是自動化測試部分，利用Selenium和TestNG來進行
+          整合測試和單元測試，盡可能地降低正式上板後發生問題的機率</pre
+      >
+    </ul>
+    <h3>專案及作品</h3>
+    <table>
+      <thead>
+        <th>名稱</th>
+        <th>簡介</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td style="text-align: right">
+            <pre>Java期末專題    <br>坦克大戰    </pre>
+          </td>
+          <td>
+            作品連結
+            <a href="https://github.com/willieooq/TankWar"
+              >https://github.com/willieooq/TankWar</a
+            ><br />
+            這個是我第一次和別人合作寫的專題，也是第一次真正在合作中使用Github
+          </td>
+        </tr>
+        <tr>
+          <td style="text-align: right">
+            <pre>LineBot    <br>NTU_launch    </pre>
+          </td>
+          <td>
+            作品連結
+            <a href="https://github.com/willieooq/NTU_launch"
+              >https://github.com/willieooq/NTU_launch</a
+            ><br />
+            為了解決全宇宙最難的問題，原本打算用google map抓餐廳的，<br />
+            但後來發現有些資料上面沒有，於是後來是採用人工調查價錢的方式，再透過excel來讀寫資料
+          </td>
+        </tr>
+        <td style="text-align: right">
+          <pre>LineBot    <br>廢棄腳踏車    <br>舉報系統    </pre>
+        </td>
+        <td>
+          作品連結
+          <a href="https://github.com/willieooq/Bicycles"
+            >https://github.com/willieooq/Bicycles</a
+          ><br />
+          為了便利民眾舉報廢棄的腳踏車，而決定使用大家都有用的LINE來建立方便的舉報系統，<br />
+          其中還使用了圖片辨識來輔助腳踏車的判斷
+        </td>
+
+        <td>
+          <tr></tr>
+        </td>
+      </tbody>
+    </table>
+  </body>
 </html>
